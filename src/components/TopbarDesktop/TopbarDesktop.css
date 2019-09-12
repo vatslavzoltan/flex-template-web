@@ -358,3 +358,10 @@
     }
   }
 }
+
+.nav_link{
+  color: #000;
+}
+.nav_active{
+  text-decoration: underline;
+}

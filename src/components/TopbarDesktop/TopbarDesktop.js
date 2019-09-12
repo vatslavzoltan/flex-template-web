@@ -13,6 +13,8 @@ import {
   MenuContent,
   MenuItem,
   NamedLink,
+  Navigation,
+
 } from '../../components';
 import { TopbarSearchForm } from '../../forms';
 
@@ -42,7 +44,22 @@ const TopbarDesktop = props => {
   const isAuthenticatedOrJustHydrated = isAuthenticated || !mounted;
 
   const classes = classNames(rootClassName || css.root, className);
-
+  const navigation = (
+    <Navigation className={css.navContainer}>
+      <NamedLink name="LandingPage" className={css.nav_link} activeClassName={css.nav_active}>
+        Home
+      </NamedLink>
+      <NamedLink name="AboutPage" className={css.nav_link} activeClassName={css.nav_active}>
+        About
+      </NamedLink>
+      <NamedLink name="ProductPage" className={css.nav_link} activeClassName={css.nav_active}>
+        Product
+      </NamedLink>
+      <NamedLink name="PricingPage" className={css.nav_link} activeClassName={css.nav_active}>
+        Pricing
+      </NamedLink>
+    </Navigation>
+  );
   const search = (
     <TopbarSearchForm
       className={css.searchLink}
@@ -141,6 +158,7 @@ const TopbarDesktop = props => {
           alt={intl.formatMessage({ id: 'TopbarDesktop.logo' })}
         />
       </NamedLink>
+      {navigation}
       {search}
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>

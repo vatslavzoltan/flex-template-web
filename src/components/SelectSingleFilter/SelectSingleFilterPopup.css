@@ -9,7 +9,7 @@
 }
 
 .menuLabel {
-  @apply --marketplaceButtonStylesSecondary;
+  @apply --marketplaceFilterStylesSecondary;
   @apply --marketplaceSearchFilterLabelFontStyles;
 
   padding: 9px 16px 10px 16px;
@@ -37,11 +37,11 @@
   height: auto;
   min-height: 0;
   border-radius: 4px;
-  border: 1px solid var(--marketplaceColor);
+  background: #F36D79;
 
   &:hover,
   &:focus {
-    border: 1px solid var(--marketplaceColorDark);
+    background: #F06D79;
   }
 }
 

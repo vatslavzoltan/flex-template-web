@@ -77,6 +77,8 @@ export { default as MenuItem } from './MenuItem/MenuItem';
 export { default as MenuContent } from './MenuContent/MenuContent';
 export { default as MenuLabel } from './MenuLabel/MenuLabel';
 export { default as Menu } from './Menu/Menu';
+export { default as Navigation } from './Navigation/Navigation';
+export { default as NavigationItem } from './NavigationItem/NavigationItem';
 
 // Modal
 export { default as Modal } from './Modal/Modal';
