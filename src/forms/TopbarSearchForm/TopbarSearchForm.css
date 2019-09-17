@@ -79,7 +79,7 @@
 }
 
 .desktopInput {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* Font */
   @apply --marketplaceH4FontStyles;
   height: var(--topbarHeightDesktop);
@@ -88,6 +88,13 @@
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 10px;
+  width: 170px;
+  transition: all .3s ease;
+
+  &:focus{
+    flex-grow: 1;
+    width: 300px;
+  }
 
   /* Search text gets ellipsis if it's too wide */
   text-overflow: ellipsis;

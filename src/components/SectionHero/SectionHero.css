@@ -87,6 +87,8 @@
 
   color: var(--matterColorLight);
   margin: 0 0 32px 0;
+  font-weight: var(--fontWeightSemiBold);
+  font-size: 24px;
 
   @apply --SectionHero_animation;
   animation-delay: 0.65s;

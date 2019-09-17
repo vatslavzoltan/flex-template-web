@@ -64,11 +64,11 @@
 .logoLink {
   @apply --TopbarDesktop_linkHover;
   flex-shrink: 0;
-  padding: 21px 24px 21px 24px;
+  padding: 21px 0px 21px 24px;
   height: 100%;
 
   @media (--viewportLarge) {
-    padding: 21px 36px 21px 36px;
+    padding: 21px 5px 21px 36px;
   }
 }
 
@@ -86,12 +86,13 @@
 
 /* Search */
 .searchLink {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   height: 100%;
   margin-right: 24px;
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: var(--matterColorNegative);
+
 
   @media (--viewportLarge) {
     padding-left: 0;
@@ -360,7 +361,14 @@
 }
 
 .nav_link{
-  color: #000;
+  @apply --marketplaceDefaultFontStyles;
+  font-size: 16px;
+  color: var(--matterColor);
+  margin-right: 30px;
+
+  &:last-child{
+    margin-right: 0;
+  }
 }
 .nav_active{
   text-decoration: underline;

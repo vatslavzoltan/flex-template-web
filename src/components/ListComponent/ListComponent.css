@@ -1,0 +1,17 @@
+@import '../../marketplace.css';
+
+.root{
+	padding: 0;
+}
+.listItem{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 39px;
+}
+.listItemMarked{
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	background-size: 30px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6UlEQVRYhe2Uy2sTURTGf98kAwWxtlURERFBRChFxVdx0ySiy5BWJjTJ0oX/Vbd9DJ2uG9O4dyEivlHTWh+ouBBcdcY5LsxCYmLGNA2C+Zb3fIffdy/nXBhqqKH+d2kQEKtURgnDBaQvWl6+/WstPSD4OjBNHD9srTt7Cve8A+zsVIFppC2g0OrZsxewQmEMqQpcAjaRsvL9zYEEsEJhDNe9A1wEGkRRVkGw1c6b6ju8XB5HqiH9hJtltLr6ppO/rwHM8yYwqwEXkF7jOBmtrGz/qadva2ieNwHUkM4Dr4iijILgbbe+32bAisUFYB9mt+T73xLBZ2cPItWAc8BLzDIKgndJetut4RWgCKxbPr8/Edx1N5rwFzjOjHw/Ebx9ACkPbCNdZWSkapXKaEd4qXSIdLoOnAWe4zhZLS29TwqHDjNgnncSx7mL2QngHmY35PtfWzyHkTaAKaRnhGFOQfDhb+DQ4SeU7zcIwxmgAVwGalYuj7fA68AU8JQ4zvYChy5bYPPzx4njOnAKuI/ZdaIoTTpdR5oEnpBK5bS4+LEXeNcAAOZ5x5q3PQ08wMxFmsTsMVGU09rap17hiQIA2NzcUVy3jtmZ5tEjwvDabuGJAwBYqXSEKAqA78BN+f7n3cKHGmqof0I/APkoq3sRadlfAAAAAElFTkSuQmCC');
+}
